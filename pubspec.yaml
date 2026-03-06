@@ -1,0 +1,34 @@
+name: sign_sense_ai
+description: A modern accessibility app for sign language, speech recognition, and text translation.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  provider: ^6.1.2
+  camera: ^0.11.0+2
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.0.2
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
